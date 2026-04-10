@@ -6,8 +6,8 @@ import Wordmark from './Wordmark'
 
 const navLinks = [
   { label: 'Services', href: '#services' },
+  { label: 'Our Work', href: '#work' },
   { label: 'About', href: '#about' },
-  { label: 'Why Us', href: '#why-us' },
   { label: 'Contact', href: '#contact' },
 ]
 

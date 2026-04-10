@@ -20,23 +20,24 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: 'SY1 Removals | Shrewsbury Removals & Moving Company',
+  title: 'SY1 Removals | House & Garden Clearance in Shrewsbury, Shropshire',
   description:
-    'Professional house removals, office moves, and man-and-van services across Shrewsbury and Shropshire. Fully insured, careful handling, fair fixed quotes. Call 07508 757024.',
+    'Professional house clearance, garden clearance, and waste removal across Shrewsbury and Shropshire. Same-day uplifts, licensed carriers, fair fixed quotes. Call 07508 757024.',
   keywords: [
-    'removals Shrewsbury',
-    'house removals Shropshire',
-    'man and van Shrewsbury',
-    'office removals Shrewsbury',
-    'moving company Shrewsbury',
-    'furniture removals SY1',
-    'local removals Shrewsbury',
-    'house clearance Shropshire',
+    'house clearance Shrewsbury',
+    'garden clearance Shropshire',
+    'waste removal Shrewsbury',
+    'rubbish removal Shropshire',
+    'fly tip removal Shrewsbury',
+    'shed removal Shrewsbury',
+    'end of tenancy clearance Shropshire',
+    'probate clearance Shrewsbury',
+    'SY1 clearance',
   ],
   openGraph: {
-    title: 'SY1 Removals — Shrewsbury Removals & Moving Company',
+    title: 'SY1 Removals — Shrewsbury House & Garden Clearance',
     description:
-      'Careful, fully-insured removals across Shrewsbury and Shropshire. House moves, office moves, and man-and-van jobs handled properly.',
+      'Licensed, insured clearance team serving Shrewsbury and Shropshire. House clearances, garden strip-outs, fly-tip removals — broom-clean finish every time.',
     type: 'website',
     locale: 'en_GB',
   },
@@ -48,11 +49,11 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'MovingCompany',
+  '@type': 'LocalBusiness',
   name: 'SY1 Removals',
   telephone: '+447508757024',
   description:
-    'Professional removals and moving company serving Shrewsbury and Shropshire. House moves, office relocations, and man-and-van services.',
+    'Professional house clearance, garden clearance, and waste removal services across Shrewsbury and Shropshire. Licensed waste carriers with fair fixed quotes and broom-clean finishes.',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Shrewsbury',

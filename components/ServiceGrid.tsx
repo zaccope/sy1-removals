@@ -1,42 +1,42 @@
-import { House, Buildings, Truck, Package, ArrowsLeftRight, Broom } from '@phosphor-icons/react/dist/ssr'
+import { House, Tree, Trash, Toolbox, Key, Warning } from '@phosphor-icons/react/dist/ssr'
 import ScrollReveal from './ScrollReveal'
 
 const services = [
   {
     icon: House,
-    title: 'House Removals',
-    description:
-      'Full home moves handled door to door. We wrap, load, transport and place everything exactly where you want it — from one-bed flats to five-bed family homes.',
-  },
-  {
-    icon: Buildings,
-    title: 'Office & Commercial Moves',
-    description:
-      'Relocate your business with minimal downtime. Evening and weekend moves available so your team is back up and running without losing a working day.',
-  },
-  {
-    icon: Truck,
-    title: 'Man & Van',
-    description:
-      'Flexible, hourly man-and-van service for smaller jobs. A couple of items, a flat move, IKEA collections, or anything that won\u2019t fit in your own car.',
-  },
-  {
-    icon: Package,
-    title: 'Packing Service',
-    description:
-      'Professional packing using quality materials — boxes, bubble wrap, blankets, and custom crates for fragile items. Everything labelled room-by-room.',
-  },
-  {
-    icon: ArrowsLeftRight,
-    title: 'Single Item & Furniture',
-    description:
-      'Sofas, beds, wardrobes, pianos, appliances. One big item that needs moving? We handle the heavy lifting, the stairs, and the awkward corners.',
-  },
-  {
-    icon: Broom,
     title: 'House Clearance',
     description:
-      'End-of-tenancy, estate clearance, or just clearing out the loft. We remove, sort, and responsibly dispose of everything — leaving the property swept clean.',
+      'Full property clearances handled with care — probate, downsizing, deceased estates, or hoarded homes. We remove everything, sort what can be donated, and leave the house broom-clean.',
+  },
+  {
+    icon: Tree,
+    title: 'Garden & Yard Clearance',
+    description:
+      'Overgrown gardens, dumped timber, broken furniture, old fence panels. We strip the whole space back to bare ground — ready for a fresh start or a sale-ready tidy-up.',
+  },
+  {
+    icon: Trash,
+    title: 'Waste & Rubbish Removal',
+    description:
+      'Same-day rubbish uplifts for households and small businesses. Bulk waste, bagged rubbish, white goods, mattresses — loaded, hauled away, and disposed of responsibly.',
+  },
+  {
+    icon: Toolbox,
+    title: 'Shed & Outbuilding Removal',
+    description:
+      'Rotten sheds, collapsed lean-tos, old greenhouses. We dismantle, clear the slab, and take every last piece away. What was there yesterday is gone today.',
+  },
+  {
+    icon: Key,
+    title: 'End of Tenancy Clearance',
+    description:
+      'Landlord-ready clearances between tenants. Everything removed, carpets lifted if needed, properties photographed before and after — so you can get it back on the market fast.',
+  },
+  {
+    icon: Warning,
+    title: 'Fly-Tip & Bulk Waste',
+    description:
+      'Someone dumped rubbish at the back of your property? We clear fly-tipped sites for landlords, businesses, and councils — quickly, quietly, and without fuss.',
   },
 ]
 
