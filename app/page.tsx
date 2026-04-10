@@ -104,11 +104,11 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Hero feature image — real work photo */}
-            <div className="hidden lg:flex lg:col-span-5 items-center justify-center">
-              <div className="relative w-full">
+            {/* Hero feature image — real work photo (shows below text on mobile, beside on desktop) */}
+            <div className="flex lg:col-span-5 items-center justify-center mt-6 lg:mt-0">
+              <div className="relative w-full max-w-md lg:max-w-none mx-auto">
                 <div className="absolute -inset-4 bg-gold-600/5 blur-3xl rounded-full" />
-                <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-gold-700/40">
+                <div className="relative aspect-[4/3] lg:aspect-[4/5] overflow-hidden rounded-sm border border-gold-700/40">
                   <img
                     src="/images/3.jpg"
                     alt="Cleared rear yard, Shrewsbury"
