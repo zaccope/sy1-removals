@@ -20,6 +20,7 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sy1-removals.vercel.app'),
   title: 'SY1 Removals | House & Garden Clearance in Shrewsbury, Shropshire',
   description:
     'Professional house clearance, garden clearance, and waste removal across Shrewsbury and Shropshire. Same-day uplifts, licensed carriers, fair fixed quotes. Call 07508 757024.',
@@ -40,6 +41,13 @@ export const metadata: Metadata = {
       'Licensed, insured clearance team serving Shrewsbury and Shropshire. House clearances, garden strip-outs, fly-tip removals — broom-clean finish every time.',
     type: 'website',
     locale: 'en_GB',
+    siteName: 'SY1 Removals',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SY1 Removals — Shrewsbury House & Garden Clearance',
+    description:
+      'Licensed, insured clearance team serving Shrewsbury and Shropshire. Broom-clean finish every time.',
   },
   robots: {
     index: false,
